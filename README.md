@@ -1,5 +1,4 @@
 # Analyzing Machine Learning Models with Yellowbrick
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/parulnith/Analysing-Machine-Learning-Models-with-Yellowbrick/master?filepath=Analysing%20Machine%20Learning%20Models%20with%20Yellowbrick.ipynb)
 
 Visualization thus has a critical role to play throughout the analytical process and is a, frankly, a must-have for any effective analysis, for model selection, and for evaluation. This article aims to discuss a diagnostic platform called **Yellowbrick** that allows data scientists to visualize the entire model selection process to steer us towards better, more explainable models—and avoid pitfalls and traps along the way.
 
@@ -35,9 +34,6 @@ The Yellowbrick API should appear easy if you are familiar with the scikit-learn
 ![](https://cdn-images-1.medium.com/max/800/1*3zNcu8BnQDQ8KSTd8_6miw.png)
 
 The primary interface is a Visualizer – an object that learns from data to produce a visualization. In order to use visualizers, import the visualizer, instantiate it, call the visualizer’s fit() method, and then, in order to render the visualization, call the visualizer’s poof() method, which does the magic!
-
-## Blog
-[Analyzing Machine Learning Models with Yellowbrick](https://heartbeat.fritz.ai/analyzing-machine-learning-models-with-yellowbrick-37795733f3ee)
 
 ![](https://cdn-images-1.medium.com/max/600/1*BGycbd7Wu-6X4AavrYAP9w.png)
 
